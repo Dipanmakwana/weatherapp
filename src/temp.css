@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family:monospace !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100vw;
+    height: 100vh;
+    background: #fd746c !important;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff9068, #fd746c) !important;  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff9068, #fd746c)  !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  
+  .bi{
+    color: white !important;
+    height: 20px !important;
+    font-size: 20px !important;
+  }
+  
+  .main-card{
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .text{
+    color:#fff !important;
+    font-size: 3.5rem !important;
+    font-family: cursive !important;
+  }
+  
+  .card{
+    height: 60vh !important;
+    width: auto !important;
+    border-radius: 25px !important;
+    background: #D31027 !important;  
+    background: -webkit-linear-gradient(to right, #EA384D, #D31027) !important;
+    background: linear-gradient(to right, #EA384D, #D31027) !important; 
+    border: 2px solid #fff !important;
+  }
+  
+  @media screen and (max-width:500px) {
+    .text{
+      font-size: 2.5rem !important;
+    }
+    .card{
+      margin-bottom: 40px !important;
+      height: auto !important;
+      width: 40vh !important;
+      border-radius: 25px !important;
+    }
+  }
+  
+  .serch{
+    border-radius: 25px !important;
+    width: 92% !important;
+  }
+  
+  .c-name{
+    font-size: 2.5rem !important;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  
